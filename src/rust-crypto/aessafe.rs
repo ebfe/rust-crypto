@@ -122,6 +122,7 @@ finite field which allows for efficient computation of the AES S-Boxes. See [7] 
 [7] - "A Very Compact Rijndael S-box". D. Canright.
       http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA434781.
 */
+#![allow(non_uppercase_statics)]
 
 use std::default::Default;
 use std::iter::range_step;
